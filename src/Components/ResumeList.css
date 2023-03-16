@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container__list {
+  width: 80%;
+  background-color: rgb(255, 255, 0);
+  margin: auto;
+  margin-top: 5rem;
+  padding: 2rem;
+  border: 2px solid rgb(179, 133, 68);
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.imgOfList {
+  height: 100px;
+  object-fit: cover;
+}
+
+.container__list_img {
+  width: min-content;
+  background-color: rgb(255, 255, 0);
+  margin: auto;
+  margin-top: 5rem;
+  padding: 5px;
+  border: 2px solid rgb(179, 133, 68);
+  border-radius: 15px;
+}
+
+.imgForResume {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.blockList {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sideBar {
+  background-color: rgb(255, 255, 0);
+  color: black;
+  font-weight: 500;
+  border: none;
+  width: 20%;
+  height: 50px;
+  border: 1px solid rgb(179, 133, 68);
+}
+
+.sideBar:hover {
+  background-color: rgb(160, 153, 57);
+}
+
+.blockSideBar {
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.container__list_friend {
+  width: 80%;
+  background-color: rgb(179, 133, 68);
+  margin: auto;
+  margin-top: 5rem;
+  padding: 2rem;
+  border: 2px solid rgb(255, 255, 0);
+  border-radius: 15px;
+  font-size: 30px;
+  color: white;
+}
+
+.blockList_friend {
+  display: flex;
+}

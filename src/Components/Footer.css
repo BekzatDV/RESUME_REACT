@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  margin-top: 5rem;
+  width: 100%;
+  bottom: 0;
+  height: 250px;
+  background-color: rgb(179, 133, 68);
+  color: white;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+#footer-id {
+  margin-right: 10rem;
+}
+
+.footer__reight-side {
+  display: flex;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  line-height: 2;
+}
